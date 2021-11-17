@@ -1,4 +1,18 @@
+/**
+ *Programa que sirve para demostrar el paso
+ *de parámetros por valor y por referencia.
+ *Clase Main
+ *@author Maximiliano Ruíz
+ *@version 1.0 21/11/17
+ *@see String
+ *@see System.out.println
+ *@see array
+ */
 public class pasoPorValorYPorReferencia{
+    /**
+     *Método Main
+     *@param args argumentos a utilizar en el método main
+     */
     public static void main(String args[]){
 	String p = "Hola";
 	String q = "Mundo";
@@ -21,6 +35,12 @@ public class pasoPorValorYPorReferencia{
 	}
     }
 
+    /**
+     *Método para unir dos Strings en un sólo String con un espacio entre ellos
+     *@param p -String uno 
+     *@param q -String dos
+     *@return String -Regresa el String resultante de unir a los strings p y q
+     */
     //Método que recibe dos parámetro por valor, en este caso dos strings
     public static String unionPorValores(String p, String q){
 	//String vacío al que se le va a asignar el valor de los strings unidos
@@ -31,6 +51,10 @@ public class pasoPorValorYPorReferencia{
 	return fraseUnida;
     }
 
+    /**
+     *Método que multiplica por 5 todos los elementos de un arreglo de números enteros
+     *@param arreglo -Arreglo de números enteros
+     */
     //Método que recibe la referencia de un arreglo de enteros
     public static void multiplicacionPorReferencia(int[] arreglo){
 	//Recorre el arreglo
