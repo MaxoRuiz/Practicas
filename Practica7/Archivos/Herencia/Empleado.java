@@ -1,7 +1,7 @@
 /**
  *Clase Empleado, que da nombre a los empleados
  *
- *@author Julio Maximiliano RuÌz Gonz·lez
+ *@author Julio Maximiliano Ru√≠z Gonz√°lez
  *@version 1.0 22/01/21
  *@see String
  */
@@ -11,16 +11,16 @@ public class Empleado{
     //Nombre del empleado
     protected String nombre;
 
-    //MÈtodos constructores
+    //M√©todos constructores
     /**
-     *MÈtodo constructor sin par·metros, ya esta definido el nombre del empleado
+     *M√©todo constructor sin par√°metros, ya esta definido el nombre del empleado
      */
     public Empleado(){
 	this.nombre = "Eduardo Gomez Garza de la Torres Paz Rosas";
     }
 
     /**
-     *MÈtodo constrcutor que recibre un String de par·metro para el nombre
+     *M√©todo constrcutor que recibre un String de par√°metro para el nombre
      *del empleado
      *@param nombre -Nombre del empleado
      */
@@ -28,28 +28,28 @@ public class Empleado{
 	this.nombre = nombre;
     }
 
-    //MÈtodos Getters
+    //M√©todos Getters
     /**
-     *MÈtodo Getter para obtener el nombre del empleado
+     *M√©todo Getter para obtener el nombre del empleado
      *@return String nombre -Devuelve el nombre del empleado
      */
     public String getNombre(){
 	return this.nombre;
     }
 
-    //MÈtodos Setters
+    //M√©todos Setters
     /**
-     *MÈtodo Setter por si se quiere cambiar el nombre del empleado ya existente
+     *M√©todo Setter por si se quiere cambiar el nombre del empleado ya existente
      *@param nombre -Nuevo nombre del empleado
      */
     public void setNombre(String nombre){
 	this.nombre = nombre;
     }
 
-    //MÈtodo toString
+    //M√©todo toString
     /**
-     *MÈtodo toString, mÈtodo que transforma el objeto a texto para que podamos leerlo 
-     *f·cilmente
+     *M√©todo toString, m√©todo que transforma el objeto a texto para que podamos leerlo 
+     *f√°cilmente
      *@return String s -Devuelve el mensaje Empleado: Nombre
      */
     public String toString(){
@@ -57,9 +57,9 @@ public class Empleado{
 	return s;
     }
 
-    //MÈtodo equals
+    //M√©todo equals
     /**
-     *MÈtodo que compara los nombres de dos objetos de la clase empleado, para verificar
+     *M√©todo que compara los nombres de dos objetos de la clase empleado, para verificar
      *si tienen el mismo nombre por lo tanto son el mismo empleado
      *@param empleado -Objeto de la clase empleado
      *@return String -Si los nombres son iguales, devuelve un mensaje que los empleados son el mismo. Si
